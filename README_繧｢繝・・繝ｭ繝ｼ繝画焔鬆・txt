@@ -1,0 +1,8 @@
+【GitHubへのアップロード手順】
+1. このフォルダの中身を全部GitHubのリポジトリにアップロードする(フォルダごとでOK)。
+2. 「.github」フォルダは隠しフォルダのため、アップロードされないことがあります。
+   その場合は、GitHubで「Add file → Create new file」を押し、
+   ファイル名の欄に  .github/workflows/build.yml  と入力して、
+   同梱の「build.yml.txt」の中身を貼り付けて保存してください。
+3. 「Actions」タブでビルドが緑になったら、Artifacts の jar をダウンロードします。
+   (フォルダの場所がどこでも動くように作ってあります)
